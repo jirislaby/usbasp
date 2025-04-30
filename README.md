@@ -124,7 +124,7 @@ Linux \ FreeBSD
 ```
 <pathtocloneddir>\utility\USBaspHIDUART>mkdir build
 <pathtocloneddir>\utility\USBaspHIDUART>cd build
-<pathtocloneddir>\utility\USBaspHIDUART\build>fpc.exe -MObjFPC -FU. -Fu../ -Fu../hidapi.pas -dUseCThreads ../USBaspHIDUART.pas -o./USBaspHIDUART
+<pathtocloneddir>\utility\USBaspHIDUART\build>fpc -MObjFPC -FU. -Fu../ -Fu../hidapi.pas -dUseCThreads ../USBaspHIDUART.pas -o./USBaspHIDUART
 ```
 
 
