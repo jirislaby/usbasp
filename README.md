@@ -14,7 +14,7 @@ This USBasp firmware is based on [a fork by Ralph Doncaster]. Original fork read
 
 > Note: Windows only .
 
-Windows MSVC builds of [avrdude v7.3], uses libwinusb instead of libusb, which doesn't support composite devices as this firmware implements. Please use a MINGW build ( i.e.  avrdude-v7.3-windows_mingw-x64.zip ) .
+Windows MSVC builds of [avrdude v8.0], uses libwinusb instead of libusb, which doesn't support composite devices as this firmware implements. Please use a MINGW build ( i.e.  avrdude-v8.0-windows_mingw-x64.zip ) .
 
 ### UART GUI Client
 
