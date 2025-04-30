@@ -14,7 +14,7 @@ This USBasp firmware is based on [a fork by Ralph Doncaster]. Original fork read
 
 > Note: Windows only .
 
-Windows MSVC builds of [avrdude v8.0], uses libwinusb instead of libusb, which doesn't support composite devices as this firmware implements. Please use a MINGW build ( i.e.  avrdude-v8.0-windows_mingw-x64.zip ) .
+Windows MSVC builds of [avrdude], uses libwinusb instead of libusb, which doesn't support composite devices as this firmware implements. Please use a MINGW build ( i.e.  avrdude-v8.0-windows_mingw-x64.zip ) .
 
 ### UART GUI Client
 
@@ -134,7 +134,7 @@ Linux \ FreeBSD
 [MSYS2]: <https://www.msys2.org/>
 [avr8-gnu-toolchain (3.6.2.17778)]: <https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers>
 [UART Flags]: <https://github.com/dioannidis/usbasp/blob/167bf1c785b353cba206a0dbcc7d322f7f49d0b9/firmware/usbasp.h#L76)>
-[avrdude v7.3]: <https://github.com/mcuee/avrdude/releases/tag/v7.3>
+[avrdude]: <https://github.com/avrdudes/avrdude/releases>
 [avrdudes/avrdude]: <https://github.com/avrdudes/avrdude>
 [libUSBUARTTerminal]: <https://github.com/dioannidis/libUSBUARTTerminal>
 [USBaspHIDUART utility]: <https://github.com/dioannidis/usbasp#usbasphiduart-utility>
