@@ -17,6 +17,7 @@
 
 uchar sck_sw_delay;
 uchar isp_hiaddr;
+uchar (*ispTransmit)(uchar);
 
 static inline void spiHWenable() {
     /* enable SPI, master */
